@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="formbox">
+            <div class="buttonbox">
+                <div id="btn"></div>
+                <button type="button" class="tooglebtn" onclick="login()">Login</button>
+                <button type="button" class="tooglebtn" onclick="register()">Register</button>
+            </div>
+            <div class="socialicon">
+             <a href="http://https://www.facebook.com" target="_blank">
+                <img src="f.png" alt="">
+            </a>
+             <a href="http://www.google.com" target="_blank">
+                <img src="g.jpg" alt="">
+            </a>
+            <a href="http://www.youtube.com" target="_blank">
+                <img src="y.jpg" alt="">
+            </a>
+            </div>
+            <form id="login" class="inputgroup">
+                <input type="text" class="input" placeholder="User ID" required>
+                <input type="password" class="input" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submitbtn">Login</button>
+            </form>
+            <form id="register" class="inputgroup">
+                <input type="text" class="input" placeholder="Name" required>
+                <input type="email" class="input" placeholder="Email ID" required>
+                <input type="password" class="input" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>Terms and condition</span>
+                <button type="submit" class="submitbtn">Register</button>
+            </form>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
